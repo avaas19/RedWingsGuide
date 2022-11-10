@@ -1,5 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  min-height: 200vh;
+  font-family: 'Cabin', Sans-serif;
+}
+
+/* .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
+} */
+
+/* #main-menu {
+  display: block;
+  height: 100px;
+  width: 100%;
+  background: #e31837;
+  margin: 0px;  
+  z-index: 9;
+}
+
+#main-menu ul {
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 9;
+}
+
+#main-menu li {
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+#main-menu a {
+  color: #B9FAF8;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#main-menu a:hover {
+  text-decoration: underline;
+} */
+
+#hamburger-input{
+  display: none;
+}
+
+#hamburger-menu {
+    position: absolute;
+    top: 2.75vw;
+    left: 2vw;
+    width: 17%;
+    height: 8%;
+    background: linear-gradient(
+      to bottom, 
+      black, black 20%, 
+      #c8102e 20%, #c8102e 40%, 
+      black 40%, black 60%, 
+      #c8102e 60%, #c8102e 80%, 
+      black 80%, black 100%
+    );
+}
+
+#hamburger-menu #sidebar-menu {
+    position: fixed;
+    top: 17vw;
+    left: -1250px;
+    width: 100%;
+    background-color: #c8102e;
+    transition: 0.3s;
+    padding: 0px 10px;
+}
+
+#sidebar-menu ul{
+    display: grid;
+    grid-template-columns: 100%;
+}
+#sidebar-menu li:hover{
+    background-color: black;
+}
+
+#hamburger-menu ul {
+  padding-left: 0px;
+}
+
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+#hamburger-menu a {
+  color: white;
+  font-size: 4vw;
+  text-decoration: none;
+}
+
+#hamburger-menu a:hover {
+  text-decoration: underline;
+  background-color: black;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
+}
+#hamburger-input:checked ~ .overlay{
+   visibility: visible;
+  opacity: 0.4;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  #main-menu {
+    display: none;
+  }
+  #hamburger-menu {
+    display: inline;
+  }
+}
+
 header, footer {
-    background-image: linear-gradient(#e31837, rgb(104, 3, 3)) ;
+    background-color: #c8102e;
+}
+header {
+    display: grid;
+    justify-items: center;
+}
+.header_image{
+    width: 17%;
+    height: 5%;
+    margin: 2vw
 }
 h1 {
     padding: 20px;
@@ -9,32 +156,6 @@ h1 {
     text-align: center;
     border: #000000 solid 1vw;
 }
-nav ul{
-    display: grid;
-    grid-template-columns: 100%;
-    justify-items: center;
-}
-nav li {
-    font-size: 4vw;
-    text-align: center;
-    background-color: #e31837;
-    margin: 2vw;
-    padding: 3vw;
-    border-radius: 50px;
-    width: 40%;
-}
-nav li a {
-    color: white;
-    text-decoration: none;
-}
-nav li:nth-child(2) {
-    width: 50%;
-}
-
-nav li:hover, nav li:focus {
-    background-color: #000000;
-}
-
 footer h1{
     font-size: 5vw;
     margin-top: 20px;
@@ -56,7 +177,7 @@ a.skip{
 }
 a.skip:focus{
     top:20px;
-    color: #e31837;
+    color: #c8102e;
     text-decoration-style: solid;
   }
   *:focus{
