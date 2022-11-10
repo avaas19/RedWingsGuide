@@ -1,5 +1,5 @@
 header, footer {
-    background-color: #d30524;
+    background-image: linear-gradient(#e31837, rgb(104, 3, 3)) ;
 }
 h1 {
     padding: 20px;
@@ -7,6 +7,7 @@ h1 {
     font-size: 7vw;
     font-family: ui-serif;
     text-align: center;
+    border: #000000 solid 1vw;
 }
 nav ul{
     display: grid;
@@ -14,7 +15,7 @@ nav ul{
     justify-items: center;
 }
 nav li {
-    font-size: 20px;
+    font-size: 4vw;
     text-align: center;
     background-color: #e31837;
     margin: 2vw;
@@ -61,10 +62,10 @@ a.skip:focus{
   *:focus{
     background-color: #000000;
   }
-  @media only screen and (min-width: 450px) {
+  /* @media only screen and (min-width: 450px) {
     nav ul {
         grid-template-columns: 30% 30% 30%;
-    }
+    } */
 
 
   }
