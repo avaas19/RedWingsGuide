@@ -69,6 +69,7 @@ body {
   color: white;
   font-size: 4vw;
   text-decoration: none;
+  padding:1vw;
 }
 
 #hamburger-menu a:hover {
@@ -83,15 +84,6 @@ body {
 #hamburger-input:focus + #hamburger-menu #sidebar-menu {
     visibility: visible;
     left: 0;
-}
-
-@media screen and (min-width: 800px) {
-  #main-menu {
-    display: inline;
-  }
-  #hamburger-menu {
-    display: none;
-  }
 }
 
 header, footer {
@@ -141,11 +133,62 @@ a.skip:focus{
   *:focus{
     background-color: #000000;
   }
+#main-menu{
+    display: none;
+}
+#sidebar-menu a.active {
+    color: #c8102e;
+    background-color: white;
+    padding:;
+}
 
-  /* @media only screen and (min-width: 450px) {
-    nav ul {
-        grid-template-columns: 30% 30% 30%;
+  @media screen and (min-width: 800px) {
+    #main-menu {
+        display: inline;
+        padding-bottom: 3vw;
     }
 
+    #hamburger-menu {
+      display: none;
+    }
+    #main-menu li {
+        padding: 2vw;
+        text-align: center;
+        display: inline;
+      }
+      
+      #main-menu a {
+        color: white;
+        font-size: 2vw;
+        text-decoration: none;
+      }
+      
+      #main-menu a:hover {
+        text-decoration: underline;
+        background-color: black;
+        padding: 3vw 1vw 3vw 1vw;
+      }
+      #main-menu a.active {
+        color: #c8102e;
+        background-color: white;
+        padding: 3vw 1vw 3vw 1vw;
+        text-decoration: underline;
+      }
 
-  } */
+  }
+
+  @media screen and (min-width: 1400px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    #main-menu {
+        padding-bottom: 0vw;
+    }
+    #main-menu a {
+        font-size: 2vw;
+      }
+
+  }
