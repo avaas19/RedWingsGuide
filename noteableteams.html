@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/champion.css">
     <title>Detriot Red Wings Guide</title>
 </head>
 <body>
+    <a class = "skip" href="#hamburger-input">Skip to Main Content</a>
     <header>
-        <h1>History of the Detriot Red Wings Franchise - Championship Teams</h1>
-        <nav>
+        <div class = "header_image">
+            <img src="Logo.png" alt="Detroit Red Wings Hockeytown logo">
+        </div>
+        <nav id="main-menu">
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="currentplayers.html">Current Players</a></li>
-              <li><a href="halloffame.html">Hall of Fame Players</a></li>
-              <li><a href="noteableteams.html">Championship Teams</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="currentplayers.html">Current Players</a></li>
+                <li><a href="halloffame.html">Hall of Fame Players</a></li>
+                <li><a class = "active" href="noteableteams.html">Championship Teams</a></li>
             </ul>
-          </nav>
+        </nav>
+        <input type="checkbox" id="hamburger-input"/>
+        <label class = "menu-toggle" id="hamburger-menu" for="hamburger-input" tabindex="0">
+        <nav id="sidebar-menu">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="currentplayers.html">Current Players</a></li>
+            <li><a href="halloffame.html">Hall of Fame Players</a></li>
+            <li class = "active"><a class = "active" href="noteableteams.html">Championship Teams</a></li>
+            </ul>
+        </nav>
+        </label>
+          
     </header>
     <p>This page features every Detroit Red Wings team that has won the Stanley Cup Champoinship. The Stanley Cup is the coveted trophy of the National Hockey League that is awarded to the team 
         who wins the playoff tournament. To learn more about a specific team and their journey throughout the playoffs click the team photo of the year that you want to learn more about.

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  min-height: 200vh;
+  font-family: 'Cabin', Sans-serif;
+}
+
+#hamburger-input{
+  display: none;
+}
+
+#hamburger-menu {
+    position: absolute;
+    top: 3.5vw;
+    left: 4vw;
+    width: 12%;
+    height: 7%;
+    background: linear-gradient(
+ 
+      white, white 10%, 
+      #c8102e 10%, #c8102e 45%, 
+      white 45%, white 55%, 
+      #c8102e 55%, #c8102e 90%, 
+      white 90%, white 100%
+    );
+}
+#hamburger-menu:hover {
+    background: linear-gradient( 
+        black, black 10%, 
+        #c8102e 10%, #c8102e 45%, 
+        black 45%, black 55%, 
+        #c8102e 55%, #c8102e 90%, 
+        black 90%, black 100%
+      );
+}
+
+#hamburger-menu #sidebar-menu {
+    position: fixed;
+    top: 17vw;
+    left: -700vw;
+    width: 100%;
+    background-color: #c8102e;
+    transition: 0.3s;
+    padding: 0vw 2vw;
+}
+
+#sidebar-menu ul{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+#sidebar-menu li:hover{
+    background-color: black;
+    padding: 1vw;
+}
+
+#hamburger-menu ul {
+  padding-left: 0px;
+}
+
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+#hamburger-menu a {
+  color: white;
+  font-size: 4vw;
+  text-decoration: none;
+  padding:1vw;
+}
+
+#hamburger-menu a:hover {
+  background-color: black;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
+}
+#hamburger-input:focus + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
+}
+
+header, footer {
+    background-color: #c8102e;
+}
+header {
+    display: grid;
+    justify-items: center;
+}
+.header_image{
+    width: 17%;
+    height: 5%;
+    margin: 2vw
+}
+h1 {
+    padding: 20px;
+    color: white;
+    font-size: 7vw;
+    font-family: ui-serif;
+    text-align: center;
+    border: #000000 solid 1vw;
+}
+footer h1{
+    font-size: 5vw;
+    margin-top: 20px;
+}
+img {
+    width: 100%
+}
+a.skip{
+    background: white;
+    font-size: 3vw;
+    left: 0;
+    padding: 1vw;
+    position: absolute;
+    top: -600px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    margin-left: 5vw;
+}
+a.skip:focus{
+    top:20px;
+    color: #c8102e;
+    text-decoration-style: solid;
+  }
+  *:focus{
+    background-color: #000000;
+  }
+#main-menu{
+    display: none;
+}
+#sidebar-menu li.active {
+    background-color: white;
+}
+#sidebar-menu a.active {
+    color: #c8102e;
+}
+
+
+  @media screen and (min-width: 800px) {
+    #main-menu {
+        display: inline;
+        padding-bottom: 3vw;
+    }
+
+    #hamburger-menu {
+      display: none;
+    }
+    #main-menu li {
+        padding: 2vw;
+        text-align: center;
+        display: inline;
+      }
+      
+      #main-menu a {
+        color: white;
+        font-size: 2vw;
+        text-decoration: none;
+      }
+      
+      #main-menu a:hover {
+        text-decoration: underline;
+        background-color: black;
+        padding: 3vw 1vw 3vw 1vw;
+      }
+      #main-menu a.active {
+        color: #c8102e;
+        background-color: white;
+        padding: 2vw 1vw 2vw 1vw;
+        text-decoration: underline;
+      }
+
+  }
+
+  @media screen and (min-width: 1400px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    #main-menu {
+        padding-bottom: 0vw;
+    }
+    #main-menu a {
+        font-size: 2vw;
+      }
+
+  }
