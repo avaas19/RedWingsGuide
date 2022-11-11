@@ -102,4 +102,23 @@
         <h1>History of the Detriot Red Wings Franchise - Championship Teams</h1>
     </footer>
 </body>
+<script>
+    var menuToggle = document.querySelector("#hamburger-menu");
+    var menu = document.querySelector("#hamburger-input");
+
+    var enterKeyCode = 9;
+    var spaceKeyCode = 32;
+
+    menuToggle.addEventListener("keyup", function(event) {
+        if(event.keyCode == enterKeyCode || event.keyCode == spaceKeyCode) {
+            var menuOpen = menu.checked;
+            console.log(menuOpen)
+            if(menuOpen) {
+                menu.checked = true;
+            } else {
+                menu.checked = true;
+            }
+        }
+    });
+</script>
 </html>

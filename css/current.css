@@ -1,0 +1,35 @@
+.page_intro{
+    text-align: center;
+    padding: 5vw;
+    background-color: white;
+    border: 1vw black solid;
+    margin: 2vw
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.gallery img{
+    padding-bottom: 3vw;
+}
+h3 {
+    text-align: center;
+}
+figure {
+    border: 1vw solid black;
+    padding: 2vw;
+    background-color: white;
+}
+figure:hover, figure:focus {
+    border: 2vw solid black;
+}
+body{
+    background-color: antiquewhite;
+}
+figcaption {
+    text-align: center;
+}

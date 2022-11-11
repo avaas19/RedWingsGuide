@@ -35,8 +35,10 @@
         </label>
           
     </header>
-    <p>Learn more about the Detroit Red Wings' current players! This page features the players that were on the opening night roster for the 2022-2023 season. To learn more about a specific player such as their draft year, teams they've played for, and their history in the NHL, click on the players image.</p>
-    
+    <div class = page_intro>
+        <h2>Current Player Profiles</h2>
+        <p>Learn more about the Detroit Red Wings' current players! This page features the players that were on the opening night roster for the 2022-2023 season. To learn more about a specific player such as their draft year, teams they've played for, and their history in the NHL, click on the players image.</p>
+    </div>  
     <main class = gallery>
         <figure>
             <h3>#71 Dylan Larkin - Forward</h3>
@@ -143,4 +145,23 @@
         <h1>History of the Detriot Red Wings Franchise - Current Players</h1>
     </footer>
 </body>
+<script>
+    var menuToggle = document.querySelector("#hamburger-menu");
+    var menu = document.querySelector("#hamburger-input");
+
+    var enterKeyCode = 9;
+    var spaceKeyCode = 32;
+
+    menuToggle.addEventListener("keyup", function(event) {
+        if(event.keyCode == enterKeyCode || event.keyCode == spaceKeyCode) {
+            var menuOpen = menu.checked;
+            console.log(menuOpen)
+            if(menuOpen) {
+                menu.checked = true;
+            } else {
+                menu.checked = true;
+            }
+        }
+    });
+</script>
 </html>
