@@ -96,7 +96,7 @@ header {
 .header_image{
     width: 17%;
     height: 5%;
-    margin: 2vw
+    margin: 2vw;
 }
 h1 {
     padding: 20px;
@@ -168,7 +168,7 @@ a.skip:focus{
       #main-menu a:hover {
         text-decoration: underline;
         background-color: black;
-        padding: 3vw 1vw 3vw 1vw;
+        padding: 2vw 1vw 2vw 1vw;
       }
       #main-menu a.active {
         color: #c8102e;
@@ -184,13 +184,17 @@ a.skip:focus{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        max-height: 200px;
 
+    }
+    .header_image{
+        width: 150px;
     }
     #main-menu {
         padding-bottom: 0vw;
     }
     #main-menu a {
-        font-size: 2vw;
+        font-size: 32px;
       }
 
   }
