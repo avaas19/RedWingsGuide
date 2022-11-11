@@ -139,7 +139,7 @@ a.skip:focus{
 #sidebar-menu a.active {
     color: #c8102e;
     background-color: white;
-    padding:;
+    padding:1vw 500vw 1vw 10px;
 }
 
   @media screen and (min-width: 800px) {
@@ -171,7 +171,7 @@ a.skip:focus{
       #main-menu a.active {
         color: #c8102e;
         background-color: white;
-        padding: 3vw 1vw 3vw 1vw;
+        padding: 2vw 1vw 2vw 1vw;
         text-decoration: underline;
       }
 
