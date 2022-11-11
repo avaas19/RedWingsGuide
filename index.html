@@ -9,16 +9,16 @@
     <title>Detriot Red Wings Guide</title>
 </head>
 <body>
-    <a class = "skip" href="#skip">Skip to Main Content</a>
+    <a class = "skip" href="#hamburger-input">Skip to Main Content</a>
     <header>
         <div class = "header_image">
             <img class = "logo" src="Logo.png" alt="Detroit Red Wings Hockeytown logo">
         </div>
-        <input type="checkbox" id="hamburger-input" class="burger-shower" />
-        <label id="hamburger-menu" for="hamburger-input">
+        <input type="checkbox" id="hamburger-input"/>
+        <label class = "menu-toggle" id="hamburger-menu" for="hamburger-input" tabindex="0">
         <nav id="sidebar-menu">
             <ul>
-            <li><a id = "skip" href="currentplayers.html">Current Players</a></li>
+            <li><a href="currentplayers.html">Current Players</a></li>
             <li><a href="halloffame.html">Hall of Fame Players</a></li>
             <li><a href="noteableteams.html">Championship Teams</a></li>
             </ul>
@@ -34,5 +34,24 @@
         <h1>Home</h1>
     </footer>
 </body>
+<script>
+    var menuToggle = document.querySelector("#hamburger-menu");
+    var menu = document.querySelector("#hamburger-input");
+
+    var enterKeyCode = 9;
+    var spaceKeyCode = 32;
+
+    menuToggle.addEventListener("keyup", function(event) {
+        if(event.keyCode == enterKeyCode || event.keyCode == spaceKeyCode) {
+            var menuOpen = menu.checked;
+            console.log(menuOpen)
+            if(menuOpen) {
+                menu.checked = true;
+            } else {
+                menu.checked = true;
+            }
+        }
+    });
+</script>
 </html>
 

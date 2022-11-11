@@ -14,18 +14,27 @@ body {
 
 #hamburger-menu {
     position: absolute;
-    top: 2.75vw;
-    left: 2vw;
-    width: 17%;
-    height: 8%;
+    top: 3.5vw;
+    left: 4vw;
+    width: 12%;
+    height: 7%;
     background: linear-gradient(
-      to bottom, 
-      black, black 20%, 
-      #c8102e 20%, #c8102e 40%, 
-      black 40%, black 60%, 
-      #c8102e 60%, #c8102e 80%, 
-      black 80%, black 100%
+ 
+      white, white 10%, 
+      #c8102e 10%, #c8102e 45%, 
+      white 45%, white 55%, 
+      #c8102e 55%, #c8102e 90%, 
+      white 90%, white 100%
     );
+}
+#hamburger-menu:hover {
+    background: linear-gradient( 
+        black, black 10%, 
+        #c8102e 10%, #c8102e 45%, 
+        black 45%, black 55%, 
+        #c8102e 55%, #c8102e 90%, 
+        black 90%, black 100%
+      );
 }
 
 #hamburger-menu #sidebar-menu {
@@ -35,13 +44,14 @@ body {
     width: 100%;
     background-color: #c8102e;
     transition: 0.3s;
-    padding: 0px 10px;
+    padding: 0vw 2vw;
 }
 
 #sidebar-menu ul{
     display: grid;
     grid-template-columns: 100%;
 }
+
 #sidebar-menu li:hover{
     background-color: black;
 }
@@ -70,19 +80,17 @@ body {
     visibility: visible;
     left: 0;
 }
-#hamburger-input:checked ~ .overlay{
-   visibility: visible;
-  opacity: 0.4;
+#hamburger-input:focus + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
 }
 
-
-
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
   #main-menu {
-    display: none;
+    display: inline;
   }
   #hamburger-menu {
-    display: inline;
+    display: none;
   }
 }
 
@@ -133,6 +141,7 @@ a.skip:focus{
   *:focus{
     background-color: #000000;
   }
+
   /* @media only screen and (min-width: 450px) {
     nav ul {
         grid-template-columns: 30% 30% 30%;
