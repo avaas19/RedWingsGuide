@@ -80,7 +80,8 @@ p{
     }
     figure:nth-child(11){
         grid-column: 1/-1;
-        width: 40%
+        width: 40%;
+        margin: 10vw 5vw 10vw 5vw; 
 }
 .parallax {
     background-image: url("Stanley_Cup.jpg");
@@ -91,18 +92,6 @@ p{
     background-size: cover;
   }
 
-}
-
-@media screen and (min-width: 1800px) {
-    .gallery {
-        grid-template-columns: 30% 30% 30%;
-    }
-    figure:nth-child(3){
-        margin: 20% 5% 17% 5%;
-    }
-    figure{
-        border: solid black 0.5vw
-    }
     h1 {
         font-size: 80px;
     }
@@ -116,6 +105,19 @@ p{
     figcaption{
         font-size: 24px;
         line-height: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    .gallery {
+        grid-template-columns: 30% 30% 30%;
+    }
+    figure:nth-child(3){
+        margin: 20% 5% 17% 5%;
+    }
+    figure{
+        border: solid black 0.5vw
     }
     figure:hover, figure:focus {
         border: 1vw solid #c8102e;
