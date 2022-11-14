@@ -1,12 +1,13 @@
-body{
-    background-color: antiquewhite;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 .page_intro{
     text-align: center;
     padding: 5vw;
     background-color: white;
     border-top: 0.5vw solid black;
     border-bottom: 0.5vw solid black;
+}
+body{
+    background-color: black;
 }
 h1 {
     color: black;
@@ -16,30 +17,6 @@ h1 {
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     font-weight: bold;
-}
-.gallery {
-    display: grid;
-    grid-template-columns: 90%;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-}
-.gallery img{
-    padding-bottom: 3vw;
-}
-figure:nth-child(1){
-    margin: 10vw 5vw 5vw 5vw;
-}
-figure {
-    border: 0.5vw solid black;
-    padding: 2vw;
-    background-color: white;
-    margin:5vw;
-    display: block;
-}
-figure:hover, figure:focus {
-    border: 1.5vw solid #c8102e;
 }
 figcaption {
     text-align: center;
@@ -62,32 +39,50 @@ p{
     line-height: 4vw;
     font-size: 2.5vw;
 }
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+figure{ 
+    box-sizing: border-box;
+    border: 0.5vw solid black;
+    padding: 2vw;
+    background-color: white;
+    padding: 5vw;
+    width: 100%;
+    margin: 5vw;
+    }
+    figure:nth-child(1) {
+        margin: 10vw 5vw 5vw 5vw;
+    }
+    figure:nth-child(10){
+        margin: 5vw 5vw 10vw 5vw;
+    }
 
-@media screen and (min-width: 800px) {
-    .gallery{
-        grid-template-columns: 45% 45%;
-        justify-items: center;
-    }
-    figure{
-        height: 85%;
-        margin: 10% 5%
-    }
-    figure:nth-child(1), figure:nth-child(2){
-        margin: 20% 5% 17% 5%;
-    }
-
+figure:hover, figure:focus {
+    border: 1vw solid #c8102e;
 }
 
-@media screen and (min-width: 1800px) {
-    .gallery {
-        grid-template-columns: 30% 30% 30%;
+@media screen and (min-width: 800px){
+    figure{ 
+        width: 38%
     }
-    figure:nth-child(3){
-        margin: 20% 5% 17% 5%;
+    figure:nth-child(2),figure:nth-child(1) {
+        margin: 10vw 5vw 5vw 5vw;
     }
-    figure{
-        border: solid black 0.5vw
+    figure:nth-child(10), figure:nth-child(9) {
+        margin: 5vw 5vw 10vw 5vw;
     }
+}
+
+@media screen and (min-width: 1800px){
+    figure{ 
+        width: 30%;
+        margin: 1vw;
+        padding: 1vw;
+        }
     h1 {
         font-size: 80px;
     }
@@ -102,11 +97,12 @@ p{
         font-size: 24px;
         line-height: 40px;
     }
-    figure:hover, figure:focus {
-        border: 1vw solid #c8102e;
+    figure:nth-child(2),figure:nth-child(1),figure:nth-child(3) {
+        margin: 2vw 1vw 1vw 1vw;
+    }
+    figure:nth-child(9){
+        margin: 1vw;
     }
     figure:nth-child(10){
-        grid-column: 1/-1;
-        max-width: 23.75%;
-}
-}
+        margin: 1vw 1vw 2vw 1vw;
+    }}

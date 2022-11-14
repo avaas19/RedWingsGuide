@@ -50,6 +50,8 @@ body {
 #sidebar-menu ul{
     display: grid;
     grid-template-columns: 100%;
+    padding: 2vw;
+    
 }
 
 #sidebar-menu li:hover{
@@ -139,6 +141,9 @@ a.skip:focus{
 #sidebar-menu li.active {
     background-color: white;
 }
+#sidebar-menu a.active:hover {
+  background-color: white;
+}
 #sidebar-menu a.active {
     color: #c8102e;
 }
@@ -202,6 +207,5 @@ footer h1 {
     }
     #main-menu a {
         font-size: 32px;
-      }
 
-  }
+    }}

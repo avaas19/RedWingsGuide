@@ -1,0 +1,116 @@
+body{
+    background-color: antiquewhite;
+}
+.page_intro{
+    text-align: center;
+    padding: 5vw;
+    background-color: white;
+    border-top: 0.5vw solid black;
+    border-bottom: 0.5vw solid black;
+}
+h1 {
+    color: black;
+    border: none;
+    margin: 0px;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-weight: bold;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+.gallery img{
+    padding-bottom: 3vw;
+}
+figure:nth-child(1){
+    margin: 10vw 5vw 5vw 5vw;
+}
+figure {
+    border: 0.5vw solid black;
+    padding: 2vw;
+    background-color: white;
+    margin:5vw;
+    display: block;
+}
+figure:hover, figure:focus {
+    border: 1.5vw solid #c8102e;
+}
+figcaption {
+    text-align: center;
+    line-height: 3.5vw;
+    font-size: 2vw;
+}
+h3 {
+    display: block;
+    font-size: 3vw;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    line-height: 4vw;
+    font-size: 2.5vw;
+}
+
+@media screen and (min-width: 800px) {
+    .gallery{
+        grid-template-columns: 45% 45%;
+        justify-items: center;
+    }
+    figure{
+        height: 85%;
+        margin: 10% 5%
+    }
+    figure:nth-child(1), figure:nth-child(2){
+        margin: 20% 5% 17% 5%;
+    }
+    figure:nth-child(11){
+        grid-column: 1/-1;
+        width: 40%
+}
+
+}
+
+@media screen and (min-width: 1800px) {
+    .gallery {
+        grid-template-columns: 30% 30% 30%;
+    }
+    figure:nth-child(3){
+        margin: 20% 5% 17% 5%;
+    }
+    figure{
+        border: solid black 0.5vw
+    }
+    h1 {
+        font-size: 80px;
+    }
+    p {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    figcaption{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    figure:hover, figure:focus {
+        border: 1vw solid #c8102e;
+    }
+    figure:nth-child(11){
+        grid-column: 1/-1;
+        max-width: 23.75%;
+}
+}
