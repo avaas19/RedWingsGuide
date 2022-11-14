@@ -2,7 +2,7 @@
     text-align: center;
     padding: 5vw;
     background-color: white;
-    border-top: 1vw solid black;
+    border-top: 0.5vw solid black;
     border-bottom: 1vw solid black;
 }
 h1 {
@@ -39,7 +39,7 @@ figure:hover, figure:focus {
     border: 1.5vw solid #c8102e;
 }
 .parallax {
-    background-image: url("RedBlackGradient.jpg");
+    background-image: url("AllRedGradient.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -82,7 +82,10 @@ p{
 
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1800px) {
+    .parallax{
+    background-image: url("RedBlackGradient.jpg");
+    }
     .gallery {
         grid-template-columns: 30% 30% 30%;
     }
