@@ -59,7 +59,7 @@ p{
     font-size: 4vw;
     color: black;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .gallery{
         grid-template-columns: 45% 45%;
     }

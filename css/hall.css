@@ -20,12 +20,12 @@ h1 {
 }
 figcaption {
     text-align: center;
-    line-height: 3.5vw;
-    font-size: 3vw;
+    line-height: 4.5vw;
+    font-size: 3.5vw;
 }
 h3 {
     display: block;
-    font-size: 4vw;
+    font-size: 5vw;
     margin-block-start: 1em;
     margin-block-end: 1em;
     font-weight: bold;
@@ -36,8 +36,8 @@ p{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    line-height: 4vw;
-    font-size: 3vw;
+    line-height: 5vw;
+    font-size: 4vw;
 }
 .gallery{
     display: flex;
@@ -65,7 +65,7 @@ figure:hover, figure:focus {
     border: 1vw solid #c8102e;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1000px){
     figure{ 
         width: 38%
     }
