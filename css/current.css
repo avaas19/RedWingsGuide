@@ -32,14 +32,14 @@ figure:nth-child(20){
     margin: 5vw 5vw 10vw 5vw;
 }
 figure {
-    border: 1.5vw solid black;
+    border: 1vw solid black;
     padding: 2vw;
     background-color: white;
     margin:5vw;
     display: block;
 }
 figure:hover, figure:focus {
-    border: 2vw solid #c8102e;
+    border: 1.5vw solid #c8102e;
 }
 .parallax {
     background-image: url("AllRedGradient.jpg");
@@ -89,9 +89,6 @@ p{
 }
 
 @media screen and (min-width: 1800px) {
-    .parallax{
-    background-image: url("RedBlackGradient.jpg");
-    }
     .gallery {
         grid-template-columns: 30% 30% 30%;
     }

@@ -1,6 +1,11 @@
-body{
-    background-color: antiquewhite;
-}
+.parallax {
+    background-image: url("Stanley_Cup.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .page_intro{
     text-align: center;
     padding: 5vw;
