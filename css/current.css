@@ -43,7 +43,7 @@ figure:hover, figure:focus {
 }
 .parallax {
     background-image: url("AllRedGradient.jpg");
-    min-height: 500px;
+    /* min-height: 500px; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
