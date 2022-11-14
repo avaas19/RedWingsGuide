@@ -36,7 +36,7 @@ figure:nth-child(20){
 }
 figure {
     padding: 2vw;
-    background-color: white;
+    background-color: rgb(234, 234, 234);
     margin:5vw;
     display: block;
 }
