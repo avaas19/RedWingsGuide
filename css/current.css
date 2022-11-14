@@ -52,11 +52,11 @@ figure:hover, figure:focus {
 figcaption {
     text-align: center;
     line-height: 3.5vw;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 h3 {
     display: block;
-    font-size: 3vw;
+    font-size: 4vw;
     margin-block-start: 1em;
     margin-block-end: 1em;
     font-weight: bold;
@@ -68,7 +68,7 @@ p{
     margin-block-start: 1em;
     margin-block-end: 1em;
     line-height: 4vw;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 @media screen and (min-width: 800px) {
     .gallery{
