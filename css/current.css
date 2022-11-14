@@ -1,9 +1,12 @@
 .page_intro{
     text-align: center;
     padding: 5vw;
-    background-color: rgb(234, 234, 234);
+    background-color:white;
     border-top: 0.75vw solid black;
     border-bottom: 0.75vw solid black;
+}
+.parallax{
+    background-color: rgb(234, 234, 234);
 }
 h1 {
     color: black;
@@ -43,11 +46,11 @@ figure:focus {
 figcaption {
     text-align: center;
     line-height: 4vw;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
 }
 h3 {
     display: block;
-    font-size: 4vw;
+    font-size: 5vw;
     margin-block-start: 1em;
     margin-block-end: 1em;
     font-weight: bold;
@@ -59,7 +62,7 @@ p{
     margin-block-start: 1em;
     margin-block-end: 1em;
     line-height: 4vw;
-    font-size: 3vw;
+    font-size: 4vw;
     color: black;
 }
 @media screen and (min-width: 800px) {
