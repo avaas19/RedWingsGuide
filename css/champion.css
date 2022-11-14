@@ -31,6 +31,9 @@ h1 {
 figure:nth-child(1){
     margin: 10vw 5vw 5vw 5vw;
 }
+figure:nth-child(11){
+    margin: 5vw 5vw 10vw 5vw;
+}
 figure {
     border: 0.5vw solid black;
     padding: 2vw;
