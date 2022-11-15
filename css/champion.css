@@ -46,8 +46,8 @@ figure:hover, figure:focus {
 }
 figcaption {
     text-align: center;
-    line-height: 3.5vw;
-    font-size: 4.5vw;
+    line-height: 4.5vw;
+    font-size: 3.5vw;
 }
 h3 {
     display: block;
