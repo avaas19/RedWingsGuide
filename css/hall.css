@@ -23,7 +23,7 @@ figcaption {
     line-height: 4.5vw;
     font-size: 3.5vw;
 }
-h3 {
+h2 {
     display: block;
     font-size: 5vw;
     margin-block-start: 1em;
@@ -83,7 +83,7 @@ figure:hover, figure:focus {
         font-size: 32px;
         line-height: 50px;
     }
-    h3{
+    h2{
         font-size: 50px;
     }
     figcaption{
