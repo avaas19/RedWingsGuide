@@ -1,3 +1,13 @@
+.lb-outerContainer {
+    height: 50% !important;
+    width: 50% !important;
+}
+
+.lightbox .lb-image{
+    height: 50vw !important;
+    width: 50vw !important;
+}
+
 .lb-data .lb-caption{
     font-size: 32px;
 }
@@ -73,6 +83,8 @@ p{
         height: 85%;
         margin: 10% 5%;
         border: 1vw solid black;
+        border-radius: 2vw;
+        background-color: white;
     }
     .parallax {
         background-image: url("AllRedGradient.jpg");
