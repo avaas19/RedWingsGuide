@@ -1,0 +1,13 @@
+.mySlides{
+    height: 30vw;
+    width: 60vw;
+    margin: 3vw;
+}
+.slide{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
