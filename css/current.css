@@ -1,15 +1,19 @@
 .lb-outerContainer {
-    height: 50% !important;
-    width: 50% !important;
+    height: 50vw !important;
+    width: 50vw !important;
 }
 
 .lightbox .lb-image{
     height: 50vw !important;
     width: 50vw !important;
 }
-
+.lb-data .lb-details{
+    margin: 2vw 0vw;
+    width: 100%;
+}
 .lb-data .lb-caption{
-    font-size: 32px;
+    margin: 3vw 0vw;
+    font-size: 2vw;
 }
 .page_intro{
     text-align: center;
