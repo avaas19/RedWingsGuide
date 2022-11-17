@@ -10,7 +10,7 @@
     <title>Detriot Red Wings Guide</title>
 </head>
 <body>
-    <a class = "skip" href="#hamburger-input">Skip to Main Content</a>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
     <header>
         <div class = "header_image">
             <img src="Logo.png" alt="Detroit Red Wings Hockeytown logo">
@@ -36,15 +36,15 @@
         </label>
           
     </header>
-    <main class = "slide">
-        <div class="w3-content w3-section">
-            <a href = "currentplayers.html" >
+    <main class = "slide" id = 'skip'>
+        <div tabindex="0">
+            <a href = "currentplayers.html" aria-label="Slideshow">
                 <img class="mySlides" src="current_players_slideshow.png" alt = "2022-23 Detroit Red Wings team photo">
             </a>
-            <a href = "halloffame.html" >
+            <a href = "halloffame.html" aria-label="Hall_of_Fame_Slideshow">
                 <img class="mySlides" src="Hall_of_Fame_Slideshow.png" alt = "Image of a Steve Yzerman exhibit in the hall of fame">
             </a>
-            <a href = "noteableteams.html" >
+            <a href = "noteableteams.html" aria-label="Banner_Slideshow">
                 <img class="mySlides" src="Banner_Slideshow.png" alt = "Image of the Detroit Red Wings' Stanley Cup banners">
             </a>
         </div>
