@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-.page_intro{
-    text-align: center;
-    padding: 5vw;
-    background-color: white;
-    border-top: 0.5vw solid black;
-    border-bottom: 0.5vw solid black;
-}
+
 body{
     background-color: black;
 }
@@ -45,50 +39,52 @@ p{
     justify-content: center;
     background-color: antiquewhite;
 }
+.gallery img{
+    height: 45%;
+}
 figure{ 
     box-sizing: border-box;
     border: 0.5vw solid black;
     padding: 2vw;
     background-color: white;
-    padding: 5vw;
+    padding: 3vw;
     width: 100%;
-    margin: 5vw;
+    margin: 2vw;
     }
 
     figure:nth-child(1) {
-        margin: 10vw 5vw 5vw 5vw;
+        margin: 4vw 2vw 2vw 2vw;
     }
     figure:nth-child(10){
-        margin: 5vw 5vw 10vw 5vw;
+        margin: 2vw 2vw 4vw 2vw;
     }
 
-figure:hover, figure:focus {
-    border: 1vw solid #c8102e;
-}
+    @media screen and (min-width: 800px){
+        h1 {
+          font-size: 80px;
+        }
+        p {
+            font-size: 32px;
+            line-height: 50px;
+        }
+        h2{
+            font-size: 50px;
+        }
+        figcaption{
+            font-size: 24px;
+            line-height: 40px;
+      }
+    }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1200px){
     figure{ 
-        width: 38%
+        width: 45%;
     }
     figure:nth-child(2),figure:nth-child(1) {
-        margin: 10vw 5vw 5vw 5vw;
+        margin: 4vw 2vw 2vw 2vw;
     }
     figure:nth-child(10), figure:nth-child(9) {
-        margin: 5vw 5vw 10vw 5vw;
-    }
-    h1 {
-        font-size: 80px;
-    }
-    p {
-        font-size: 32px;
-        line-height: 50px;
-    }
-    h2{
-        font-size: 50px;
-    }
-    figcaption{
-        font-size: 24px;
-        line-height: 40px;
+        margin: 2vw 2vw 4vw 2vw;
     }
 }
 

@@ -1,13 +1,6 @@
 .parallax {
     background-image: url("IceBackground.png");
   }
-.page_intro{
-    text-align: center;
-    padding: 5vw;
-    background-color: white;
-    border-top: 0.5vw solid black;
-    border-bottom: 0.5vw solid black;
-}
 h1 {
     color: black;
     border: none;
@@ -27,6 +20,7 @@ h1 {
 }
 .gallery img{
     padding-bottom: 3vw;
+    height: 30%
 }
 figure:nth-child(1){
     margin: 10vw 5vw 5vw 5vw;
@@ -37,17 +31,17 @@ figure:nth-child(11){
 figure {
     border: 0.5vw solid black;
     padding: 2vw;
-    background-color: white;
+    background-image: url('AllRedGradient.jpg');
     margin:5vw;
     display: block;
+    opacity: 0.8;
 }
-figure:hover, figure:focus {
-    border: 1.5vw solid #c8102e;
-}
+
 figcaption {
-    text-align: center;
+    text-align: left;
     line-height: 4.5vw;
     font-size: 3.5vw;
+    color: white;
 }
 h2 {
     display: block;
@@ -55,7 +49,10 @@ h2 {
     margin-block-start: 1em;
     margin-block-end: 1em;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 p{
@@ -65,8 +62,23 @@ p{
     line-height: 5vw;
     font-size: 4vw;
 }
-
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px){
+    h1 {
+      font-size: 80px;
+    }
+    p {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    figcaption{
+        font-size: 24px;
+        line-height: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
     .gallery{
         grid-template-columns: 45% 45%;
         justify-items: center;
@@ -84,7 +96,7 @@ p{
         margin: 10vw 5vw 10vw 5vw; 
 }
 .parallax {
-    background-image: url("Stanley_Cup.jpg");
+    background-image: url("SY_with_Stanley_Cup.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -92,20 +104,6 @@ p{
     background-size: cover;
   }
 
-    h1 {
-        font-size: 80px;
-    }
-    p {
-        font-size: 32px;
-        line-height: 50px;
-    }
-    h2 {
-        font-size: 50px;
-    }
-    figcaption{
-        font-size: 24px;
-        line-height: 40px;
-    }
 
 }
 
@@ -119,9 +117,7 @@ p{
     figure{
         border: solid black 0.5vw
     }
-    figure:hover, figure:focus {
-        border: 1vw solid #c8102e;
-    }
+
     figure:nth-child(10){
         grid-column: 1/3;
         max-width:35%;

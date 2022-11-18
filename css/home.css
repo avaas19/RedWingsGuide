@@ -3,6 +3,9 @@
     width: 50vw;
     margin: 3vw;
 }
+body{
+    background-color: rgb(234, 234, 234)
+}
 .slide{
     display: grid;
     grid-template-columns: 100%;
@@ -11,13 +14,7 @@
     justify-items: center;
     align-content: center;
 }
-.page_intro{
-    text-align: center;
-    padding: 5vw;
-    background-color:white;
-    border-top: 0.75vw solid black;
-    border-bottom: 0.75vw solid black;
-}
+
 h1 {
     color: black;
     border: none;
@@ -35,17 +32,19 @@ p {
     font-size: 4vw;
     color: black;
 }
-@media screen and (min-width: 1000px){
-h1 {
-    font-size: 80px;
-}
-p {
-    font-size: 32px;
-    line-height: 50px;
-}
-.page_intro{
-    background-color: white;
-    border-top: 0.75vw solid black;
-    border-bottom: 0.75vw solid black;
-}
+@media screen and (min-width: 800px){
+    h1 {
+      font-size: 80px;
+    }
+    p {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    figcaption{
+        font-size: 24px;
+        line-height: 40px;
+  }
 }

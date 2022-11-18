@@ -9,7 +9,13 @@ body {
   min-height: 200vh;
   font-family: 'Cabin', Sans-serif;
 }
-
+.page_intro{
+  text-align: center;
+  padding: 3vw;
+  background-color: white;
+  border-top: 0.5vw solid black;
+  border-bottom: 0.5vw solid black;
+}
 #hamburger-input{
   display: none;
 }
@@ -190,8 +196,21 @@ footer h1 {
         padding: 2vw 1vw 2vw 1vw;
         text-decoration: underline;
       }
-
-  }
+      h1 {
+        font-size: 80px;
+      }
+      p {
+          font-size: 32px;
+          line-height: 50px;
+      }
+      h2{
+          font-size: 50px;
+      }
+      figcaption{
+          font-size: 24px;
+          line-height: 40px;
+      }
+    }
 
   @media screen and (min-width: 1400px){
     header{
