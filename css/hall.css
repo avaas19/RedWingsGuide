@@ -40,7 +40,7 @@ p{
     background-color: antiquewhite;
 }
 .gallery img{
-    height: 45%;
+    height: 47%;
 }
 figure{ 
     box-sizing: border-box;
@@ -50,6 +50,7 @@ figure{
     padding: 3vw;
     width: 100%;
     margin: 2vw;
+    height: 80%;
     }
 
     figure:nth-child(1) {
@@ -79,6 +80,7 @@ figure{
 @media screen and (min-width: 1200px){
     figure{ 
         width: 45%;
+        height: initial;
     }
     figure:nth-child(2),figure:nth-child(1) {
         margin: 4vw 2vw 2vw 2vw;
