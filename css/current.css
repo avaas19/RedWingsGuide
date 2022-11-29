@@ -29,6 +29,7 @@
 }
 .gallery img{
     padding-bottom: 3vw;
+    height: 40%;
 }
 
 figure {
@@ -49,6 +50,7 @@ figure {
         margin: 10% 5%;
         border-radius: 2vw;
         background-color: white;
+        border: 8px solid black;
     }
     .parallax {
         background-image: url("AllRedGradient.jpg");
