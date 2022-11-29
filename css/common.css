@@ -270,8 +270,10 @@ figcaption{
         padding-bottom: 0vw;
     }
     #main-menu a {
-        font-size: 28px;
-
+        font-size: 24px;
+    }
+    footer h1{
+      font-size: 40px;
     }
 
   }
