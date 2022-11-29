@@ -6,8 +6,6 @@ h1 {
     border: none;
     margin: 0px;
     display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
     font-weight: bold;
 }
 .gallery {
@@ -60,23 +58,23 @@ p{
     margin-block-start: 1em;
     margin-block-end: 1em;
     line-height: 5vw;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 @media screen and (min-width: 800px){
     h1 {
-      font-size: 80px;
+        font-size: 60px;
+      }
+      p {
+          font-size: 20px;
+          line-height: 30px;
+      }
+      h2{
+          font-size: 40px;
+      }
+      figcaption{
+          font-size: 24px;
+          line-height: 40px;
     }
-    p {
-        font-size: 32px;
-        line-height: 50px;
-    }
-    h2{
-        font-size: 50px;
-    }
-    figcaption{
-        font-size: 24px;
-        line-height: 40px;
-  }
 }
 @media screen and (min-width: 1200px) {
     .gallery{
