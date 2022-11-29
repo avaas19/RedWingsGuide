@@ -105,14 +105,6 @@ header {
     height: 5%;
     margin: 2vw;
 }
-h1 {
-    padding: 3vw;
-    color: white;
-    font-size: 7vw;
-    font-family: ui-serif;
-    text-align: center;
-    border: #000000 solid 1vw;
-}
 footer h1{
     font-size: 5vw;
     margin-top: 20px;
@@ -159,13 +151,19 @@ footer h1 {
   font-size: 3vw;
   padding: 5%
 }
+
 h1 {
+  font-size: 7vw;
   color: black;
   border: none;
   margin: 0px;
   display: block;
   font-weight: bold;
+  font-family: ui-serif;
+  padding: 3vw;
+  text-align: center;
 }
+
 p {
   display: block;
   margin-block-start: 1em;
@@ -187,6 +185,25 @@ h2 {
   font-weight: bold;
   text-align: center;
 }
+
+@media screen and (min-width: 500px){
+
+h1 {
+  font-size: 60px;
+}
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+h2{
+    font-size: 40px;
+}
+figcaption{
+    font-size: 24px;
+    line-height: 40px;
+}
+}
+
 
   @media screen and (min-width: 800px) {
     #main-menu {
@@ -219,20 +236,6 @@ h2 {
         background-color: white;
         padding: 2vw 1vw 2vw 1vw;
         text-decoration: underline;
-      }
-      h1 {
-        font-size: 60px;
-      }
-      p {
-          font-size: 20px;
-          line-height: 30px;
-      }
-      h2{
-          font-size: 40px;
-      }
-      figcaption{
-          font-size: 24px;
-          line-height: 40px;
       }
     }
 
