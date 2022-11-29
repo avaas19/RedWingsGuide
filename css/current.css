@@ -46,7 +46,6 @@ figure {
     figure{
         height: 85%;
         margin: 10% 5%;
-        border: 0.75vw solid black;
         border-radius: 2vw;
         background-color: white;
     }
@@ -60,8 +59,6 @@ figure {
       }
       .page_intro{
         background-color: white;
-        border-top: 0.75vw solid black;
-        border-bottom: 0.75vw solid black;
     }
     img:hover, img:focus {
         border: 1.5vw solid #c8102e;
@@ -79,17 +76,9 @@ figure {
     .gallery {
         grid-template-columns: 30% 30% 30%;
     }
-    .page_intro{
-        border-top: 0.5vw solid black;
-        border-bottom: 0.5vw solid black;
-    }
     figure:nth-child(3){
         margin: 10% 5% 10% 5%;
     }
-    figure{
-        border: solid black 0.5vw;
-    }
-
     img:hover, img:focus {
         border: 1vw solid #c8102e;
     }

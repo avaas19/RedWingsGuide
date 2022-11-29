@@ -10,8 +10,11 @@ body {
   text-align: center;
   padding: 3vw;
   background-color: white;
-  border-top: 0.5vw solid black;
-  border-bottom: 0.5vw solid black;
+  border-top: 1vw solid black;
+  border-bottom: 1vw solid black;
+}
+figure{
+  border: 1vw solid black;
 }
 #hamburger-input{
   display: none;
@@ -206,8 +209,14 @@ figcaption{
   @media screen and (min-width: 800px) {
     h1 {
     font-size: 60px;
-}
-
+    }
+    .page_intro{
+      border-top: 8px solid black;
+      border-bottom: 8px solid black;
+    }
+    figure{
+      border: 8px solid black;
+    }
     #main-menu {
         display: inline;
         padding-bottom: 3vw;

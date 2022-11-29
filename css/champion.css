@@ -27,7 +27,6 @@ figure:nth-child(11){
     margin: 5vw 5vw 10vw 5vw;
 }
 figure {
-    border: 0.5vw solid black;
     padding: 2vw;
     background-image: url('AllRedGradient.jpg');
     margin:5vw;
@@ -82,9 +81,6 @@ h2 {
     }
     figure:nth-child(3){
         margin: 20% 5% 17% 5%;
-    }
-    figure{
-        border: solid black 0.5vw
     }
 
     figure:nth-child(10){

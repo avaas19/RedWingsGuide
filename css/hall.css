@@ -13,26 +13,26 @@ body{
 }
 figure{ 
     box-sizing: border-box;
-    border: 0.5vw solid black;
     padding: 2vw;
     background-color: white;
     padding: 3vw;
     width: 100%;
-    margin: 2vw;
+    margin: 4vw;
     height: 80%;
     }
 
     figure:nth-child(1) {
-        margin: 4vw 2vw 2vw 2vw;
+        margin: 8vw 4vw 4vw 4vw;
     }
     figure:nth-child(10){
-        margin: 2vw 2vw 4vw 2vw;
+        margin: 4vw 4vw 8vw 4vw;
     }
 
 @media screen and (min-width: 1200px){
     figure{ 
         width: 45%;
         height: initial;
+        margin: 2vw;
     }
     figure:nth-child(2),figure:nth-child(1) {
         margin: 4vw 2vw 2vw 2vw;
