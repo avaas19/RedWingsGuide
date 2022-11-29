@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-/* *:focus{
-  border: solid 1vw black;
-} */
+
 body {
   padding: 0px;
   margin: 0px;
   font-size: 20px;
-  /* min-height: 200vh; */
   font-family: 'Cabin', Sans-serif;
 }
 .page_intro{
