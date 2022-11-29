@@ -4,8 +4,8 @@
     margin: 3vw;
 }
 body{
-    background-color: rgb(234, 234, 234);
-    /* background-color: green; */
+    /* background-color: rgb(234, 234, 234); */
+    background-color: yellow;
 }
 .slide{
     display: grid;
@@ -21,8 +21,6 @@ h1 {
     border: none;
     margin: 0px;
     display: block;
-    /* margin-block-start: 0.67em;
-    margin-block-end: 0.67em; */
     font-weight: bold;
 }
 p {
