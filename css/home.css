@@ -4,7 +4,8 @@
     margin: 3vw;
 }
 body{
-    background-color: rgb(234, 234, 234)
+    /* background-color: rgb(234, 234, 234); */
+    background-color: green;
 }
 .slide{
     display: grid;
