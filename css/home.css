@@ -4,8 +4,8 @@
     margin: 3vw;
 }
 body{
-    /* background-color: rgb(234, 234, 234); */
-    background-color: green;
+    background-color: rgb(234, 234, 234);
+    /* background-color: green; */
 }
 .slide{
     display: grid;
@@ -30,7 +30,7 @@ p {
     margin-block-start: 1em;
     margin-block-end: 1em;
     line-height: 5vw;
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: black;
 }
 
