@@ -28,7 +28,7 @@ figure{
         margin: 4vw 4vw 8vw 4vw;
     }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1000px){
     figure{ 
         width: 45%;
         height: initial;

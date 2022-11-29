@@ -46,7 +46,7 @@ h2 {
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
     .gallery{
         grid-template-columns: 45% 45%;
         justify-items: center;

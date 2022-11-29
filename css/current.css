@@ -36,6 +36,7 @@ figure {
     background-color: rgb(234, 234, 234);
     margin:2vw 2vw 0vw 2vw;
     display: block;
+    border: none;
 }
 
 
