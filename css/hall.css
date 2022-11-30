@@ -42,7 +42,7 @@ figure{
     }
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1550px){
     figure{ 
         width: 30%;
         margin: 1vw;
