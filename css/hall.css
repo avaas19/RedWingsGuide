@@ -4,9 +4,9 @@ body{
 }
 .gallery{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     background-color: antiquewhite;
+    flex-wrap: wrap;
 }
 .gallery img{
     height: 47%;
