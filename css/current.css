@@ -41,6 +41,7 @@ figure {
 }
 
 
+
 @media screen and (min-width: 1000px) {
     .gallery{
         grid-template-columns: 45% 45%;
@@ -72,7 +73,7 @@ figure {
 
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1500px) {
     .gallery {
         grid-template-columns: 30% 30% 30%;
     }
