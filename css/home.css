@@ -5,7 +5,6 @@
 }
 body{
     background-color: rgb(234, 234, 234);
-    /* background-color: yellow; */
 }
 .slide{
     display: grid;
