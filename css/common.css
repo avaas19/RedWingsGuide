@@ -206,7 +206,7 @@ figcaption{
 }
 
 
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 1000px) {
     h1 {
     font-size: 60px;
     }
@@ -250,7 +250,7 @@ figcaption{
       }
     }
 
-  @media screen and (min-width: 1400px){
+  @media screen and (min-width: 1550px){
     .page_intro p{
       width: 70%;
       display: block;
