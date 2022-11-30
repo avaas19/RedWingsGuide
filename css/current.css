@@ -1,0 +1,104 @@
+.lb-outerContainer {
+    height: 50vw !important;
+    width: 50vw !important;
+}
+
+.lightbox .lb-image{
+    height: 50vw !important;
+    width: 50vw !important;
+}
+.lb-data .lb-details{
+    margin: 2vw 0vw;
+    width: 100%;
+}
+.lb-data .lb-caption{
+    margin: 3vw 0vw;
+    font-size: 2vw;
+}
+.parallax{
+    background-color: rgb(234, 234, 234);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+.gallery img{
+    padding-bottom: 3vw;
+    height: 40%;
+}
+
+figure {
+    padding: 2vw;
+    background-color: rgb(234, 234, 234);
+    /* margin:2vw 2vw 0vw 2vw; */
+    margin: 5vw;
+    display: block;
+    border: none;
+}
+figure:nth-child(1){
+    margin: 10vw 5vw 5vw 5vw;
+}
+figure:nth-child(20){
+    margin: 5vw 5vw 10vw 5vw;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .gallery{
+        grid-template-columns: 45% 45%;
+    }
+    figure{
+        height: 85%;
+        margin: 10% 5%;
+        border-radius: 2vw;
+        background-color: white;
+        border: 8px solid black;
+    }
+    .parallax {
+        background-image: url("allredgradient.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .page_intro{
+        background-color: white;
+    }
+    figure:nth-child(1), figure:nth-child(2){
+        margin: 10% 5% 10% 5%;
+    }
+    figure:nth-child(19), figure:nth-child(20){
+        margin: 10% 5% 20% 5%;
+    }
+
+}
+
+@media screen and (min-width: 1550px) {
+    .gallery {
+        grid-template-columns: 30% 30% 30%;
+    }
+    figure:nth-child(3){
+        margin: 10% 5% 10% 5%;
+    }
+    figure:nth-child(19){
+        grid-column: 1/3;
+        max-width:35%;
+        grid-row: 7;
+        margin: 5% 5% 7% 5%;
+    }
+    figure:nth-child(20){
+        grid-column: 2/-1;
+        grid-row: 7;
+        max-width:35%;
+        margin: 5% 5% 7% 5%;
+
+    }
+
+}

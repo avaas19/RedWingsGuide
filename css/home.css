@@ -1,0 +1,31 @@
+.mySlides{
+    height: 50vw;
+    width: 80vw;
+    margin: 3vw;
+}
+body{
+    background-color: rgb(234, 234, 234);
+    /* background-color: yellow; */
+}
+.slide{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+@media screen and (min-width: 1200px) {
+    .mySlides{
+        height: 30vw;
+        width: 50vw;
+    }
+}
+@media (prefers-reduced-motion){
+     
+    .mySlides {
+        display: block !important;
+    } 
+}
+
+
