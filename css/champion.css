@@ -1,5 +1,5 @@
 .parallax {
-    background-image: url("IceBackground.png");
+    background-image: url("icebackground.png");
   }
 h1 {
     color: black;
@@ -28,7 +28,7 @@ figure:nth-child(11){
 }
 figure {
     padding: 2vw;
-    background-image: url('AllRedGradient.jpg');
+    background-image: url('allredgradient.jpg');
     margin:5vw;
     display: block;
     opacity: 0.8;
@@ -64,7 +64,7 @@ h2 {
         margin: 10vw 5vw 10vw 5vw; 
 }
 .parallax {
-    background-image: url("SY_with_Stanley_Cup.jpg");
+    background-image: url("sy_with_stanley_cup.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;

@@ -61,7 +61,7 @@ figure:nth-child(20){
         border: 8px solid black;
     }
     .parallax {
-        background-image: url("AllRedGradient.jpg");
+        background-image: url("allredgradient.jpg");
         min-height: 500px;
         background-attachment: fixed;
         background-position: center;
