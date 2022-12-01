@@ -210,7 +210,6 @@ figcaption{
   @media screen and (min-width: 1000px) {
     h1 {
     font-size: 60px;
-    margin: 3vw;
     }
     .page_intro{
       border-top: 8px solid black;
