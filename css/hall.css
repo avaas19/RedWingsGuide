@@ -2,6 +2,9 @@
 body{
     background-color: black;
 }
+figcaption{
+    padding: 1vw;
+}
 .gallery{
     display: flex;
     justify-content: center;
@@ -27,6 +30,7 @@ figure{
     figure:nth-child(10){
         margin: 4vw 4vw 8vw 4vw;
     }
+
 
 @media screen and (min-width: 1000px){
     figure{ 
